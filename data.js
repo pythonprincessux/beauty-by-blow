@@ -15,21 +15,12 @@
 const SERVICES = [
   {
     id: "yoni-steam",
-    name: "Yoni Steam",
+    name: "Yoni Steam Rituals",
     category: "wellness",
     tagline: "Wellness",
-    description: "A relaxing steam-based self-care service designed around comfort, relaxation, and personal wellness, in a private and unhurried setting.",
-    duration: "Duration varies",
-    price: "Contact for pricing"
-  },
-  {
-    id: "ear-candling",
-    name: "Ear Candling",
-    category: "wellness",
-    tagline: "Wellness",
-    description: "A calming wellness ritual offered in a relaxing private setting, designed to help you slow down and unwind.",
-    duration: "Duration varies",
-    price: "Contact for pricing"
+    description: "A private, non-medical external botanical steam ritual centered on relaxation, intention, and personal self-care. Choose from three ritual experiences and five signature blends.",
+    duration: "30–60 min",
+    price: "From $45"
   },
   {
     id: "teeth-whitening",
