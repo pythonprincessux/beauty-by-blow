@@ -26,7 +26,9 @@
     >
       <span>
         <span class="name">${service.name}</span>
-        <span class="meta">${service.tagline} · ${service.duration}</span>
+        <span class="meta">
+          ${service.tagline} · ${service.duration}
+        </span>
       </span>
 
       <span class="price">${service.price}</span>

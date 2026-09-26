@@ -1,343 +1,609 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Beauty By BLOW — Beauty, Body &amp; Wellness with Asia</title>
-<meta name="description" content="Beauty By BLOW is a private home beauty, body, and wellness studio in Buford, Georgia.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Beauty By BLOW | Beauty, Body &amp; Wellness with Asia Shari</title>
+
+  <meta
+    name="description"
+    content="Beauty By BLOW is Asia Shari's private beauty, body, and wellness studio in Buford, Georgia."
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<a class="visually-hidden" href="#main">Skip to content</a>
+  <a class="visually-hidden" href="#main">Skip to content</a>
 
-<header class="site-header">
-  <div class="wrap nav">
-    <a class="brand" href="index.html">Beauty By <strong>BLOW</strong></a>
 
-    <nav class="nav-links" aria-label="Primary">
-      <a href="index.html" aria-current="page">Home</a>
+  <header class="site-header">
+    <div class="wrap nav">
+
+      <a class="brand" href="index.html">
+        Beauty By <strong>BLOW</strong>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="services.html">Services</a>
+        <a href="meet-asia.html">Meet Asia</a>
+        <a href="before-you-book.html">Before You Book</a>
+        <a href="faq.html">FAQ</a>
+      </nav>
+
+      <div class="nav-cta">
+
+        <a class="btn btn-secondary" href="before-you-book.html">
+          Before You Book
+        </a>
+
+        <a class="btn btn-primary" href="book.html">
+          Book Now
+        </a>
+
+        <button
+          class="hamburger"
+          data-hamburger
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+          >
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <line x1="3" y1="12" x2="21" y2="12"/>
+            <line x1="3" y1="18" x2="21" y2="18"/>
+          </svg>
+        </button>
+
+      </div>
+    </div>
+  </header>
+
+
+  <div class="scrim" data-scrim></div>
+
+
+  <div class="mobile-panel" id="mobile-menu" data-mobile-panel>
+
+    <div class="mobile-panel-top">
+
+      <span class="brand">
+        Beauty By <strong>BLOW</strong>
+      </span>
+
+      <button
+        class="hamburger"
+        data-mobile-close
+        aria-label="Close menu"
+      >
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+        >
+          <line x1="18" y1="6" x2="6" y2="18"/>
+          <line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+
+    </div>
+
+    <nav aria-label="Mobile">
+      <a href="index.html">Home</a>
       <a href="services.html">Services</a>
       <a href="meet-asia.html">Meet Asia</a>
       <a href="before-you-book.html">Before You Book</a>
       <a href="faq.html">FAQ</a>
     </nav>
 
-    <div class="nav-cta">
-      <a class="btn btn-secondary" href="before-you-book.html">Before You Book</a>
-      <a class="btn btn-primary" href="book.html">Book Now</a>
+    <a class="btn btn-primary btn-block" href="book.html">
+      Book Now
+    </a>
 
-      <button
-        class="hamburger"
-        data-hamburger
-        aria-label="Open menu"
-        aria-expanded="false"
-        aria-controls="mobile-menu"
-      >
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
-          <line x1="3" y1="6" x2="21" y2="6"/>
-          <line x1="3" y1="12" x2="21" y2="12"/>
-          <line x1="3" y1="18" x2="21" y2="18"/>
-        </svg>
-      </button>
-    </div>
-  </div>
-</header>
-
-<div class="scrim" data-scrim></div>
-
-<div class="mobile-panel" id="mobile-menu" data-mobile-panel>
-  <div class="mobile-panel-top">
-    <span class="brand">Beauty By <strong>BLOW</strong></span>
-
-    <button class="hamburger" data-mobile-close aria-label="Close menu">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
-        <line x1="18" y1="6" x2="6" y2="18"/>
-        <line x1="6" y1="6" x2="18" y2="18"/>
-      </svg>
-    </button>
   </div>
 
-  <nav aria-label="Mobile">
-    <a href="index.html">Home</a>
-    <a href="services.html">Services</a>
-    <a href="meet-asia.html">Meet Asia</a>
-    <a href="before-you-book.html">Before You Book</a>
-    <a href="faq.html">FAQ</a>
-  </nav>
 
-  <a class="btn btn-primary btn-block" href="book.html">Book Now</a>
-</div>
+  <main id="main">
 
-<main id="main">
 
-  <!-- HERO -->
-  <section class="hero">
-    <div
-      class="blob float-slow"
-      style="width:180px;height:180px;background:var(--blush);top:5%;left:-60px;"
-    ></div>
+    <!-- HERO -->
+    <section class="hero">
 
-    <div
-      class="blob float-slower"
-      style="width:120px;height:120px;background:var(--butter);top:60%;left:38%;opacity:0.7;"
-    ></div>
+      <div
+        class="blob float-slow"
+        style="width:180px;height:180px;background:var(--blush);top:5%;left:-60px;"
+      ></div>
 
-    <div
-      class="blob float-slow"
-      style="width:90px;height:90px;background:var(--rose);top:12%;right:6%;opacity:0.6;"
-    ></div>
+      <div
+        class="blob float-slower"
+        style="width:120px;height:120px;background:var(--butter);top:60%;left:38%;opacity:0.7;"
+      ></div>
 
-    <div class="wrap hero-grid">
-      <div class="reveal is-visible">
-        <p class="eyebrow">Buford, GA · Private Home Studio</p>
+      <div
+        class="blob float-slow"
+        style="width:90px;height:90px;background:var(--rose);top:12%;right:6%;opacity:0.6;"
+      ></div>
 
-        <h1>
-          Beauty. Body. Wellness. All About
-          <span class="italic">You</span>.
-        </h1>
 
-        <p class="hero-support">
-          Personalized beauty and wellness services designed to help you
-          look good, feel good, and leave glowing.
-        </p>
+      <div class="wrap hero-grid">
 
-        <div class="hero-ctas">
-          <a class="btn btn-primary" href="book.html">
-            Book Your Appointment
-          </a>
+        <div class="reveal is-visible">
 
-          <a class="btn btn-secondary" href="services.html">
-            Explore Services
-          </a>
-        </div>
-      </div>
-
-      <div class="hero-media reveal is-visible">
-        <img
-          src="images/beauty-by-blow-logo.png"
-          alt="Beauty By BLOW logo with succulent and botanical artwork"
-          loading="eager"
-        >
-
-        <span class="hero-media-caption">
-          Beauty Lies Only Within
-        </span>
-      </div>
-    </div>
-  </section>
-
-  <!-- INTRO / BRAND STATEMENT -->
-  <section class="section bg-cream2">
-    <div class="wrap intro reveal">
-      <h2>
-        A little beauty. A little wellness. A whole lot of
-        <span class="italic">you</span>.
-      </h2>
-
-      <p class="lede" style="max-width:60ch;">
-        Beauty By BLOW brings beauty, body, and self-care services together
-        in a private home studio in Buford, Georgia. The exact address is
-        shared with confirmed clients.
-      </p>
-
-      <a class="intro-link" href="meet-asia.html">
-        Meet Asia
-      </a>
-    </div>
-  </section>
-
-  <!-- SERVICES TEASER -->
-  <section class="section">
-    <div class="wrap">
-      <div class="reveal">
-        <p class="eyebrow">What we offer</p>
-
-        <h2 style="font-size:var(--step-3);">
-          Pick Your <span class="italic">Glow</span>
-        </h2>
-
-        <p class="lede mt-1">
-          Beauty, body, and wellness services, each one built around your
-          comfort and your time.
-        </p>
-      </div>
-
-      <div class="services-grid mt-3" data-services-teaser></div>
-
-      <div class="center mt-3">
-        <a class="btn btn-secondary" href="services.html">
-          View All Services
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- MEET ASIA TEASER -->
-  <section class="section bg-blush">
-    <div class="wrap asia-teaser">
-
-      <div class="asia-portrait reveal">
-        <img
-          src="images/sharima-rivera-founder.png"
-          alt="Asia, founder of Beauty By BLOW"
-          loading="lazy"
-        >
-      </div>
-
-      <div class="reveal">
-        <p class="eyebrow">Meet Asia</p>
-
-        <h2 style="font-size:var(--step-3);">
-          The woman behind the <span class="italic">glow</span>.
-        </h2>
-
-        <p class="lede mt-1" style="max-width:52ch;">
-          I’m Sharima Rivera, a mother, former model, fashion designer,
-          and lifelong creative with a passion for helping women discover
-          beauty beyond what can be seen.
-        </p>
-
-        <p class="mt-1" style="max-width:52ch;">
-          Beauty by B.L.O.W. — Beauty Lies Only Within — grew from my own
-          wellness journey and my belief that true beauty begins on the inside.
-        </p>
-
-        <a class="intro-link mt-2" href="meet-asia.html">
-          Get to Know Asia →
-        </a>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- EXPERIENCE -->
-  <section class="section">
-    <div class="wrap">
-
-      <div class="reveal">
-        <p class="eyebrow">How it works</p>
-
-        <h2 style="font-size:var(--step-3);">
-          Your appointment, your time.
-        </h2>
-      </div>
-
-      <div class="steps">
-
-        <div class="step reveal">
-          <p class="step-num">01</p>
-          <h3>Choose Your Service</h3>
-          <p>
-            Browse Beauty By BLOW services and find what fits your
-            self-care plans.
+          <p class="eyebrow">
+            Buford, GA · Private Home Studio
           </p>
+
+          <h1>
+            Beauty. Body. Wellness. All About
+            <span class="italic">You</span>.
+          </h1>
+
+          <p class="hero-support">
+            Personalized beauty, body, and wellness experiences designed
+            to give you intentional time to slow down, care for yourself,
+            and reconnect with the beauty that already exists within.
+          </p>
+
+          <div class="hero-ctas">
+
+            <a class="btn btn-primary" href="book.html">
+              Book Your Appointment
+            </a>
+
+            <a class="btn btn-secondary" href="services.html">
+              Explore Services
+            </a>
+
+          </div>
+
         </div>
 
-        <div class="step reveal">
-          <p class="step-num">02</p>
-          <h3>Book Your Visit</h3>
-          <p>
-            Choose your appointment time online and reserve your
-            Beauty By BLOW experience with Asia.
+
+        <div class="hero-media reveal is-visible">
+
+          <img
+            src="images/beauty-by-blow-logo.png"
+            alt="Beauty By BLOW logo with succulent and botanical artwork"
+            loading="eager"
+          >
+
+          <span class="hero-media-caption">
+            Beauty Lies Only Within
+          </span>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- INTRO / BRAND STATEMENT -->
+    <section class="section bg-cream2">
+
+      <div class="wrap intro reveal">
+
+        <p class="eyebrow">
+          Beauty Lies Only Within
+        </p>
+
+        <h2>
+          A little beauty. A little wellness. A whole lot of
+          <span class="italic">you</span>.
+        </h2>
+
+        <p
+          class="lede"
+          style="max-width:60ch;"
+        >
+          Beauty By BLOW brings beauty, body, wellness, and intentional
+          self-care together in a private home studio in Buford, Georgia.
+          The exact studio address is shared directly with confirmed clients.
+        </p>
+
+        <a
+          class="intro-link"
+          href="meet-asia.html"
+        >
+          Meet Asia Shari →
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- SERVICES TEASER -->
+    <section class="section">
+
+      <div class="wrap">
+
+        <div class="reveal">
+
+          <p class="eyebrow">
+            What we offer
+          </p>
+
+          <h2 style="font-size:var(--step-3);">
+            Pick Your <span class="italic">Glow</span>
+          </h2>
+
+          <p class="lede mt-1">
+            Explore beauty, body, and wellness services designed around
+            your self-care experience, including introductory launch pricing.
+          </p>
+
+        </div>
+
+
+        <div
+          class="services-grid mt-3"
+          data-services-teaser
+        ></div>
+
+
+        <div class="center mt-3">
+
+          <a
+            class="btn btn-secondary"
+            href="services.html"
+          >
+            View Services &amp; Pricing
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- MEET ASIA -->
+    <section class="section bg-blush">
+
+      <div class="wrap asia-teaser">
+
+
+        <div class="asia-portrait reveal">
+
+          <img
+            src="images/sharima-rivera-founder.png"
+            alt="Asia Shari, founder of Beauty By BLOW"
+            loading="lazy"
+          >
+
+        </div>
+
+
+        <div class="reveal">
+
+          <p class="eyebrow">
+            Meet the Founder
+          </p>
+
+          <h2 style="font-size:var(--step-3);">
+            Meet <span class="italic">Asia Shari</span>.
+          </h2>
+
+          <p
+            class="lede mt-1"
+            style="max-width:52ch;"
+          >
+            I’m Asia Shari, a mother, former model, fashion designer,
+            and lifelong creative with a passion for helping women discover
+            beauty beyond what can be seen.
+          </p>
+
+          <p
+            class="mt-1"
+            style="max-width:52ch;"
+          >
+            Beauty by B.L.O.W. — Beauty Lies Only Within — grew from my
+            own wellness journey and my belief that true beauty begins
+            on the inside.
           </p>
 
           <a
-            class="intro-link mt-1"
-            href="https://calendly.com/blowbysharibusiness"
-            target="_blank"
-            rel="noopener noreferrer"
+            class="intro-link mt-2"
+            href="meet-asia.html"
           >
-            Schedule Online →
+            Get to Know Asia Shari →
           </a>
-        </div>
 
-        <div class="step reveal">
-          <p class="step-num">03</p>
-          <h3>Come Get Your Glow</h3>
-          <p>
-            Receive your appointment details and arrive ready for your
-            Beauty By BLOW experience at Asia’s private Buford studio.
-          </p>
         </div>
 
       </div>
-    </div>
-  </section>
 
-  <!-- FINAL CTA -->
-  <section class="section">
-    <div class="wrap">
-      <div class="final-cta reveal">
+    </section>
 
-        <h2>
-          Ready for your next
-          <span class="italic">glow-up</span>?
-        </h2>
 
-        <p>
-          Your Beauty By BLOW appointment is waiting.
+    <!-- EXPERIENCE -->
+    <section class="section">
+
+      <div class="wrap">
+
+        <div class="reveal">
+
+          <p class="eyebrow">
+            How it works
+          </p>
+
+          <h2 style="font-size:var(--step-3);">
+            Your appointment, your time.
+          </h2>
+
+        </div>
+
+
+        <div class="steps">
+
+
+          <div class="step reveal">
+
+            <p class="step-num">
+              01
+            </p>
+
+            <h3>
+              Choose Your Service
+            </h3>
+
+            <p>
+              Explore Beauty By BLOW services, pricing, packages,
+              and add-ons to find the experience that's right for you.
+            </p>
+
+            <a
+              class="intro-link mt-1"
+              href="services.html"
+            >
+              Explore Services →
+            </a>
+
+          </div>
+
+
+          <div class="step reveal">
+
+            <p class="step-num">
+              02
+            </p>
+
+            <h3>
+              Book Your Visit
+            </h3>
+
+            <p>
+              Review the booking information, choose your appointment
+              online, and reserve your Beauty By BLOW experience with
+              Asia Shari.
+            </p>
+
+            <a
+              class="intro-link mt-1"
+              href="book.html"
+            >
+              Start Booking →
+            </a>
+
+          </div>
+
+
+          <div class="step reveal">
+
+            <p class="step-num">
+              03
+            </p>
+
+            <h3>
+              Come Get Your Glow
+            </h3>
+
+            <p>
+              Receive your confirmed appointment details and arrive
+              ready for your Beauty By BLOW experience at Asia Shari's
+              private Buford studio.
+            </p>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- PRIVATE EXPERIENCE -->
+    <section class="section bg-cream2">
+
+      <div class="wrap intro reveal">
+
+        <p class="eyebrow">
+          Private. Personal. Intentional.
         </p>
 
-        <a class="btn btn-primary" href="book.html">
-          Book With Asia
+        <h2>
+          Your self-care deserves its own
+          <span class="italic">space</span>.
+        </h2>
+
+        <p
+          class="lede"
+          style="max-width:60ch;"
+        >
+          Beauty By BLOW offers one-on-one beauty, body, and wellness
+          experiences in a private Buford home studio, creating space
+          for you to slow down and make your appointment about you.
+        </p>
+
+        <a
+          class="intro-link"
+          href="before-you-book.html"
+        >
+          What to Know Before You Book →
         </a>
 
       </div>
-    </div>
-  </section>
 
-</main>
+    </section>
 
-<footer class="site-footer">
-  <div class="wrap">
 
-    <div class="footer-grid">
+    <!-- FINAL CTA -->
+    <section class="section">
 
-      <div>
-        <p class="footer-brand">Beauty By BLOW</p>
+      <div class="wrap">
 
-        <p>
-          Private beauty, body, and wellness studio in Buford, GA —
-          personalized, unhurried, and entirely about you.
-        </p>
+        <div class="final-cta reveal">
+
+          <p class="eyebrow">
+            Your ritual awaits
+          </p>
+
+          <h2>
+            Ready for your next
+            <span class="italic">glow-up</span>?
+          </h2>
+
+          <p>
+            Your Beauty By BLOW experience with Asia Shari is waiting.
+          </p>
+
+          <a
+            class="btn btn-primary"
+            href="book.html"
+          >
+            Book With Asia Shari
+          </a>
+
+        </div>
+
       </div>
 
-      <div class="footer-col">
-        <h4>Explore</h4>
+    </section>
 
-        <ul>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="meet-asia.html">Meet Asia</a></li>
-          <li><a href="book.html">Booking</a></li>
-        </ul>
+
+  </main>
+
+
+  <footer class="site-footer">
+
+    <div class="wrap">
+
+      <div class="footer-grid">
+
+
+        <div>
+
+          <p class="footer-brand">
+            Beauty By BLOW
+          </p>
+
+          <p>
+            Private beauty, body, and wellness studio in Buford, GA.
+            Personalized, unhurried, and entirely about you.
+          </p>
+
+        </div>
+
+
+        <div class="footer-col">
+
+          <h4>
+            Explore
+          </h4>
+
+          <ul>
+
+            <li>
+              <a href="services.html">
+                Services
+              </a>
+            </li>
+
+            <li>
+              <a href="meet-asia.html">
+                Meet Asia Shari
+              </a>
+            </li>
+
+            <li>
+              <a href="book.html">
+                Booking
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+
+        <div class="footer-col">
+
+          <h4>
+            Studio
+          </h4>
+
+          <ul>
+
+            <li>
+              <a href="before-you-book.html">
+                Policies
+              </a>
+            </li>
+
+            <li>
+              <a href="before-you-book.html#privacy">
+                Privacy
+              </a>
+            </li>
+
+            <li>
+              <a href="faq.html">
+                FAQ
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+
       </div>
 
-      <div class="footer-col">
-        <h4>Studio</h4>
 
-        <ul>
-          <li><a href="before-you-book.html">Policies</a></li>
-          <li><a href="before-you-book.html#privacy">Privacy</a></li>
-          <li><a href="faq.html">FAQ</a></li>
-        </ul>
+      <div class="footer-bottom">
+
+        <span>
+          Beauty By BLOW &copy;
+          <span data-year></span>
+        </span>
+
       </div>
 
     </div>
 
-    <div class="footer-bottom">
-      <span>
-        Beauty By BLOW &copy; <span data-year></span>
-      </span>
-    </div>
+  </footer>
 
-  </div>
-</footer>
 
-<script src="data.js"></script>
-<script src="render.js"></script>
-<script src="main.js"></script>
+  <script src="data.js"></script>
+  <script src="render.js"></script>
+  <script src="main.js"></script>
 
 </body>
+
 </html>

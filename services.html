@@ -3,10 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Services — Beauty By BLOW</title>
-<meta name="description" content="Beauty, body, and wellness services from Beauty By BLOW — Asia's private studio.">
+<title>Services | Beauty By BLOW</title>
+<meta name="description" content="Explore beauty, body, and wellness services from Beauty By BLOW, Asia Shari's private studio in Buford, Georgia.">
 <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
 <a class="visually-hidden" href="#main">Skip to content</a>
@@ -14,6 +15,7 @@
 <header class="site-header">
   <div class="wrap nav">
     <a class="brand" href="index.html">Beauty By <strong>BLOW</strong></a>
+
     <nav class="nav-links" aria-label="Primary">
       <a href="index.html">Home</a>
       <a href="services.html" aria-current="page">Services</a>
@@ -21,24 +23,43 @@
       <a href="before-you-book.html">Before You Book</a>
       <a href="faq.html">FAQ</a>
     </nav>
+
     <div class="nav-cta">
       <a class="btn btn-secondary" href="before-you-book.html">Before You Book</a>
       <a class="btn btn-primary" href="book.html">Book Now</a>
-      <button class="hamburger" data-hamburger aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+
+      <button
+        class="hamburger"
+        data-hamburger
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+             stroke-width="2" stroke-linecap="round">
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
       </button>
     </div>
   </div>
 </header>
 
 <div class="scrim" data-scrim></div>
+
 <div class="mobile-panel" id="mobile-menu" data-mobile-panel>
   <div class="mobile-panel-top">
     <span class="brand">Beauty By <strong>BLOW</strong></span>
+
     <button class="hamburger" data-mobile-close aria-label="Close menu">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+           stroke-width="2" stroke-linecap="round">
+        <line x1="18" y1="6" x2="6" y2="18"/>
+        <line x1="6" y1="6" x2="18" y2="18"/>
+      </svg>
     </button>
   </div>
+
   <nav aria-label="Mobile">
     <a href="index.html">Home</a>
     <a href="services.html">Services</a>
@@ -46,108 +67,745 @@
     <a href="before-you-book.html">Before You Book</a>
     <a href="faq.html">FAQ</a>
   </nav>
+
   <a class="btn btn-primary btn-block" href="book.html">Book Now</a>
 </div>
 
+
 <main id="main">
+
+  <!-- PAGE HEADER -->
   <section class="page-header wrap">
     <p class="eyebrow reveal">What we offer</p>
-    <h1 class="reveal">Beauty &amp; Wellness, <span class="italic">Your</span> Way</h1>
-    <p class="lede reveal">Beauty, body, and wellness services in a private Buford home studio. Yoni Steam Ritual pricing is listed below; pricing and duration for other services will be added as confirmed.</p>
 
-    <div class="filter-row reveal" role="group" aria-label="Filter services by category">
-      <button class="filter-chip" data-filter-chip="all" aria-pressed="true">All</button>
-      <button class="filter-chip" data-filter-chip="beauty" aria-pressed="false">Beauty</button>
-      <button class="filter-chip" data-filter-chip="body" aria-pressed="false">Body</button>
-      <button class="filter-chip" data-filter-chip="wellness" aria-pressed="false">Wellness</button>
+    <h1 class="reveal">
+      Beauty &amp; Wellness, <span class="italic">Your</span> Way
+    </h1>
+
+    <p class="lede reveal">
+      Beauty, body, and wellness services in a private Buford home studio.
+      Explore Beauty By BLOW's introductory launch pricing and regular service pricing below.
+    </p>
+
+    <div class="filter-row reveal"
+         role="group"
+         aria-label="Filter services by category">
+
+      <button class="filter-chip"
+              data-filter-chip="all"
+              aria-pressed="true">All</button>
+
+      <button class="filter-chip"
+              data-filter-chip="beauty"
+              aria-pressed="false">Beauty</button>
+
+      <button class="filter-chip"
+              data-filter-chip="body"
+              aria-pressed="false">Body</button>
+
+      <button class="filter-chip"
+              data-filter-chip="wellness"
+              aria-pressed="false">Wellness</button>
     </div>
   </section>
 
+
+  <!-- CORE SERVICE CARDS -->
   <section class="section-tight">
     <div class="wrap">
       <div class="services-grid" data-services-grid></div>
     </div>
   </section>
 
-  <section class="section yoni-feature" id="yoni-ritual-menu">
+
+  <!-- BEAUTY MENU -->
+  <section class="section bg-blush" id="beauty-menu">
     <div class="wrap">
-      <div class="yoni-hero-grid reveal">
-        <div>
-          <p class="eyebrow">Beauty By BLOW · Yoni Steam Ritual Menu</p>
-          <h2>More than a steam. <span class="italic">It’s a ritual.</span></h2>
-          <p class="lede mt-1">Private, non-medical external botanical steam rituals centered on relaxation, intention, and personal self-care.</p>
-        </div>
-        <img class="yoni-collection-image" src="images/yoni-steam-collection.png" alt="Beauty By BLOW Yoni Steam Herbal Collection featuring five signature botanical blends">
-      </div>
+
+      <p class="eyebrow reveal">Beauty Services</p>
+
+      <h2 class="reveal">
+        Beauty that feels like <span class="italic">you.</span>
+      </h2>
+
       <div class="ritual-grid mt-3">
-        <article class="ritual-card"><p class="eyebrow">30 minutes</p><h3>The BLOW Signature Steam</h3><p class="ritual-price">$45</p><p>Choice of signature botanical blend, private steam session, disposable/sanitary setup, bottled water or herbal tea, affirmation card, and a relaxing aromatherapy atmosphere.</p><p><strong>Best for:</strong> first-time clients and regular self-care appointments.</p></article>
-        <article class="ritual-card featured"><span class="bestseller">Signature · Bestseller</span><p class="eyebrow">45 minutes</p><h3>Goddess Glow Ritual</h3><p class="ritual-price">$65</p><p>Private steam session, choice of blend, herbal tea, aromatherapy, warm neck/shoulder wrap, affirmation/intention card, and one take-home single-use steam blend.</p></article>
-        <article class="ritual-card"><p class="eyebrow">60 minutes</p><h3>Beauty Lies Only Within Ritual</h3><p class="ritual-price">$85</p><p>Steam ritual, customized blend selection, tea service, aromatherapy, warm neck wrap, guided intention/affirmation moment, mini self-care gift, and two take-home steam blends packaged by Beauty By BLOW.</p></article>
+
+        <article class="ritual-card">
+          <p class="eyebrow">60 minutes</p>
+          <h3>BLOW Bright Teeth Whitening</h3>
+          <p class="ritual-price">$75 Intro · $100 Regular</p>
+          <p>
+            A cosmetic whitening service designed to brighten the appearance
+            of your smile in a comfortable private-studio setting.
+          </p>
+        </article>
+
+        <article class="ritual-card">
+          <p class="eyebrow">30–40 minutes</p>
+          <h3>BLOW Bright Touch-Up</h3>
+          <p class="ritual-price">$45 Intro · $60 Regular</p>
+          <p>
+            A shorter whitening appointment designed for returning clients
+            looking to refresh their results.
+          </p>
+        </article>
+
+        <article class="ritual-card">
+          <p class="eyebrow">45–60 minutes</p>
+          <h3>BLOW Brow Lamination</h3>
+          <p class="ritual-price">$65 Intro · $85 Regular</p>
+          <p>
+            A brow styling treatment designed to create a fuller, lifted,
+            polished appearance.
+          </p>
+        </article>
+
+        <article class="ritual-card">
+          <p class="eyebrow">60 minutes</p>
+          <h3>Brow Lamination + Tint</h3>
+          <p class="ritual-price">$75 Intro · $95 Regular</p>
+          <p>
+            Brow lamination paired with tint for additional definition and
+            a polished finish.
+          </p>
+        </article>
+
+        <article class="ritual-card">
+          <p class="eyebrow">2.5–3 hours</p>
+          <h3>BLOW Signature Microblading</h3>
+          <p class="ritual-price">$250 Intro · $350 Regular</p>
+          <p>
+            A semi-permanent brow service designed to create the appearance
+            of fuller, more defined, natural-looking brows.
+          </p>
+        </article>
+
+        <article class="ritual-card">
+          <p class="eyebrow">1.5–2 hours</p>
+          <h3>Microblading Perfecting Session</h3>
+          <p class="ritual-price">$75 Intro · $100 Regular</p>
+          <p>
+            A follow-up perfecting appointment for eligible microblading clients.
+          </p>
+        </article>
+
       </div>
-      <div class="series-grid mt-3">
-        <div class="series-card"><p class="eyebrow">Steam Series</p><h3>BLOW 3-Ritual Series</h3><p class="ritual-price">$120</p><p>Three Signature Steam appointments. Regular value $135 · Save $15.</p></div>
-        <div class="series-card"><p class="eyebrow">Steam Series</p><h3>Goddess 3-Ritual Series</h3><p class="ritual-price">$175</p><p>Three Goddess Glow appointments. Regular value $195 · Save $20.</p></div>
-      </div>
-      <div class="blend-section mt-3">
-        <p class="eyebrow">Our Five Signature Blends</p><div class="blend-grid">
-          <div><h3>Cleansing Confidence</h3><p>A fresh botanical ritual centered around reset, intention, and feeling refreshed.</p></div>
-          <div><h3>Womb Revival</h3><p>A grounding ritual centered around reconnection, stillness, and feminine self-care.</p></div>
-          <div><h3>Peace After Pain</h3><p>A gentle emotional self-care ritual centered around comfort, reflection, and restoration.</p></div>
-          <div><h3>Divine Flow</h3><p>A calming ritual for slowing down, releasing the day, and reconnecting with yourself.</p></div>
-          <div><h3>Goddess Glow</h3><p>Our luxurious signature blend centered around confidence, softness, and self-love.</p></div>
-        </div>
-      </div>
-      <div class="takehome mt-3"><p class="eyebrow">Take-Home Collection</p><div class="blend-grid">
-        <div><h3>One Ritual · $18</h3><p>One single-use packaged herbal blend with instructions and affirmation.</p></div>
-        <div><h3>BLOW Duo · $32</h3><p>Choose any two signature blends.</p></div>
-        <div><h3>BLOW Trio · $45</h3><p>Choose any three signature blends.</p></div>
-        <div><h3>The Goddess Collection · $70</h3><p>All five signature blends in a Beauty By BLOW gift box.</p></div>
-      </div></div>
-      <p class="safety-note mt-2"><strong>Important:</strong> Yoni steaming is offered as an optional external self-care ritual, not medical treatment. Review the consent and safety information before booking.</p>
     </div>
   </section>
 
-  <section class="section bg-blush">
-    <div class="wrap center" style="max-width:640px;">
-      <h2 style="font-size:var(--step-2);">Not sure what's right for you?</h2>
-      <p class="lede center mt-1" style="max-width:56ch;">Reach out before booking and Asia can help you choose the service — or combination of services — that fits what you're looking for.</p>
-      <a class="btn btn-primary mt-2" href="book.html">Book Your Appointment</a>
+
+  <!-- LASH MENU -->
+  <section class="section" id="lash-menu">
+    <div class="wrap">
+
+      <p class="eyebrow reveal">Lash Menu</p>
+
+      <h2 class="reveal">
+        From classic to <span class="italic">full volume.</span>
+      </h2>
+
+      <div class="ritual-grid mt-3">
+
+        <article class="ritual-card">
+          <p class="eyebrow">2.5–3 hours</p>
+          <h3>Classic Full Set</h3>
+          <p class="ritual-price">$85 Intro · $110 Regular</p>
+        </article>
+
+        <article class="ritual-card">
+          <p class="eyebrow">2.5–3 hours</p>
+          <h3>Hybrid Full Set</h3>
+          <p class="ritual-price">$100 Intro · $130 Regular</p>
+        </article>
+
+        <article class="ritual-card">
+          <p class="eyebrow">3–3.5 hours</p>
+          <h3>Volume Full Set</h3>
+          <p class="ritual-price">$120 Intro · $150 Regular</p>
+        </article>
+
+        <article class="ritual-card">
+          <p class="eyebrow">1.5–2 hours</p>
+          <h3>Classic 2-Week Fill</h3>
+          <p class="ritual-price">$45 Intro · $55 Regular</p>
+        </article>
+
+        <article class="ritual-card">
+          <p class="eyebrow">1.5–2 hours</p>
+          <h3>Hybrid 2-Week Fill</h3>
+          <p class="ritual-price">$55 Intro · $65 Regular</p>
+        </article>
+
+        <article class="ritual-card">
+          <p class="eyebrow">1.5–2 hours</p>
+          <h3>Volume 2-Week Fill</h3>
+          <p class="ritual-price">$65 Intro · $75 Regular</p>
+        </article>
+
+        <article class="ritual-card">
+          <p class="eyebrow">2–2.5 hours</p>
+          <h3>Classic 3-Week Fill</h3>
+          <p class="ritual-price">$60 Intro · $70 Regular</p>
+        </article>
+
+        <article class="ritual-card">
+          <p class="eyebrow">2–2.5 hours</p>
+          <h3>Hybrid 3-Week Fill</h3>
+          <p class="ritual-price">$70 Intro · $80 Regular</p>
+        </article>
+
+        <article class="ritual-card">
+          <p class="eyebrow">2–2.5 hours</p>
+          <h3>Volume 3-Week Fill</h3>
+          <p class="ritual-price">$80 Intro · $90 Regular</p>
+        </article>
+
+        <article class="ritual-card">
+          <p class="eyebrow">30–45 minutes</p>
+          <h3>Lash Removal</h3>
+          <p class="ritual-price">$25 Intro · $30 Regular</p>
+        </article>
+
+        <article class="ritual-card">
+          <p class="eyebrow">Add approximately 30 minutes</p>
+          <h3>Removal With New Set</h3>
+          <p class="ritual-price">+$15</p>
+        </article>
+
+      </div>
     </div>
   </section>
+
+
+  <!-- BODY SERVICES -->
+  <section class="section bg-blush" id="body-menu">
+    <div class="wrap">
+
+      <p class="eyebrow reveal">Body Services</p>
+
+      <h2 class="reveal">
+        Intentional care for your <span class="italic">whole body.</span>
+      </h2>
+
+      <div class="ritual-grid mt-3">
+
+        <article class="ritual-card">
+          <p class="eyebrow">45 minutes</p>
+          <h3>BLOW Detox Sauna Wrap</h3>
+          <p class="ritual-price">$45 Intro · $65 Regular</p>
+        </article>
+
+        <article class="ritual-card">
+          <p class="eyebrow">60 minutes</p>
+          <h3>BLOW Lymphatic Reset</h3>
+          <p class="ritual-price">$85 Intro · $120 Regular</p>
+          <p>
+            A gentle, rhythmic body service focused on relaxation and
+            supporting natural lymphatic movement.
+          </p>
+        </article>
+
+        <article class="ritual-card">
+          <p class="eyebrow">60 minutes</p>
+          <h3>BLOW Body Sculpt · Wood Therapy</h3>
+          <p class="ritual-price">$75 Intro · $100 Regular</p>
+          <p>
+            A body-contouring massage technique using specialized wooden tools
+            and tailored to your comfort level.
+          </p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- BODY PACKAGES -->
+  <section class="section" id="body-packages">
+    <div class="wrap">
+
+      <p class="eyebrow reveal">Body Packages</p>
+
+      <h2 class="reveal">
+        Build consistency into your <span class="italic">self-care.</span>
+      </h2>
+
+      <p class="lede mt-1">
+        Body packages are paid in full at the time of booking.
+      </p>
+
+      <div class="ritual-grid mt-3">
+
+        <article class="ritual-card">
+          <p class="eyebrow">Approximately 90 minutes</p>
+          <h3>BLOW Body Reset</h3>
+          <p class="ritual-price">$115 Intro · $150 Regular</p>
+          <p>Lymphatic service + sauna wrap.</p>
+        </article>
+
+        <article class="ritual-card">
+          <p class="eyebrow">Approximately 2 hours</p>
+          <h3>BLOW Sculpt &amp; Detox</h3>
+          <p class="ritual-price">$145 Intro · $185 Regular</p>
+          <p>Wood therapy + lymphatic service + sauna wrap.</p>
+        </article>
+
+        <article class="ritual-card">
+          <p class="eyebrow">Three 60-minute sessions</p>
+          <h3>BLOW 3-Session Sculpt Package</h3>
+          <p class="ritual-price">$195 Intro · $270 Regular</p>
+          <p>Three wood-therapy sessions.</p>
+        </article>
+
+        <article class="ritual-card">
+          <p class="eyebrow">Six 60-minute sessions</p>
+          <h3>BLOW 6-Session Sculpt Package</h3>
+          <p class="ritual-price">$375 Intro · $510 Regular</p>
+          <p>Six wood-therapy sessions.</p>
+        </article>
+
+        <article class="ritual-card featured">
+          <span class="bestseller">Premium Body Package</span>
+          <h3>BLOW Total Body Transformation</h3>
+          <p class="ritual-price">$525 Intro · $700 Regular</p>
+          <p>
+            Six wood-therapy sessions + three sauna wraps +
+            three lymphatic sessions.
+          </p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- BODY ADD-ONS -->
+  <section class="section bg-blush" id="body-addons">
+    <div class="wrap">
+
+      <p class="eyebrow">Body Add-Ons</p>
+
+      <div class="blend-grid mt-2">
+
+        <div>
+          <h3>Sauna Wrap · +$35</h3>
+        </div>
+
+        <div>
+          <h3>Brow Tint · +$15</h3>
+        </div>
+
+        <div>
+          <h3>Targeted Wood Therapy · +$30</h3>
+          <p>30 minutes.</p>
+        </div>
+
+        <div>
+          <h3>Lash Removal With New Set · +$15</h3>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- YONI MENU -->
+  <section class="section yoni-feature" id="yoni-ritual-menu">
+    <div class="wrap">
+
+      <div class="yoni-hero-grid reveal">
+
+        <div>
+          <p class="eyebrow">
+            Beauty By BLOW · Yoni Steam Ritual Menu
+          </p>
+
+          <h2>
+            More than a steam.
+            <span class="italic">It’s a ritual.</span>
+          </h2>
+
+          <p class="lede mt-1">
+            Private, non-medical external botanical steam rituals centered
+            on relaxation, intention, and personal self-care.
+          </p>
+        </div>
+
+        <img
+          class="yoni-collection-image"
+          src="images/yoni-steam-collection.png"
+          alt="Beauty By BLOW Yoni Steam Herbal Collection featuring five signature botanical blends">
+      </div>
+
+
+      <div class="ritual-grid mt-3">
+
+        <article class="ritual-card">
+          <p class="eyebrow">30 minutes</p>
+
+          <h3>The BLOW Signature Steam</h3>
+
+          <p class="ritual-price">
+            $45 Intro · $60 Regular
+          </p>
+
+          <p>
+            Choice of signature botanical blend, private steam session,
+            disposable/sanitary setup, bottled water or herbal tea,
+            affirmation card, and a relaxing aromatherapy atmosphere.
+          </p>
+
+          <p>
+            <strong>Best for:</strong>
+            first-time clients and regular self-care appointments.
+          </p>
+        </article>
+
+
+        <article class="ritual-card featured">
+
+          <span class="bestseller">
+            Signature · Bestseller
+          </span>
+
+          <p class="eyebrow">45 minutes</p>
+
+          <h3>Goddess Glow Ritual</h3>
+
+          <p class="ritual-price">
+            $65 Intro · $80 Regular
+          </p>
+
+          <p>
+            Private steam session, choice of blend, herbal tea,
+            aromatherapy, warm neck/shoulder wrap,
+            affirmation/intention card, and one take-home
+            single-use steam blend.
+          </p>
+        </article>
+
+
+        <article class="ritual-card">
+
+          <p class="eyebrow">60 minutes</p>
+
+          <h3>Beauty Lies Only Within Ritual</h3>
+
+          <p class="ritual-price">
+            $85 Intro · $105 Regular
+          </p>
+
+          <p>
+            Steam ritual, customized blend selection, tea service,
+            aromatherapy, warm neck wrap, guided intention/affirmation
+            moment, mini self-care gift, and two take-home steam blends
+            packaged by Beauty By BLOW.
+          </p>
+        </article>
+
+      </div>
+
+
+      <!-- STEAM SERIES -->
+      <div class="series-grid mt-3">
+
+        <div class="series-card">
+
+          <p class="eyebrow">Steam Series</p>
+
+          <h3>BLOW 3-Ritual Series</h3>
+
+          <p class="ritual-price">
+            $120 Intro · $165 Regular
+          </p>
+
+          <p>
+            Three Signature Steam appointments.
+          </p>
+        </div>
+
+
+        <div class="series-card">
+
+          <p class="eyebrow">Steam Series</p>
+
+          <h3>Goddess 3-Ritual Series</h3>
+
+          <p class="ritual-price">
+            $175 Intro · $225 Regular
+          </p>
+
+          <p>
+            Three Goddess Glow appointments.
+          </p>
+        </div>
+
+      </div>
+
+
+      <!-- BLENDS -->
+      <div class="blend-section mt-3">
+
+        <p class="eyebrow">
+          Our Five Signature Blends
+        </p>
+
+        <div class="blend-grid">
+
+          <div>
+            <h3>Cleansing Confidence</h3>
+            <p>
+              A fresh botanical ritual centered around reset,
+              intention, and feeling refreshed.
+            </p>
+          </div>
+
+          <div>
+            <h3>Womb Revival</h3>
+            <p>
+              A grounding ritual centered around reconnection,
+              stillness, and feminine self-care.
+            </p>
+          </div>
+
+          <div>
+            <h3>Peace After Pain</h3>
+            <p>
+              A gentle emotional self-care ritual centered around
+              comfort, reflection, and restoration.
+            </p>
+          </div>
+
+          <div>
+            <h3>Divine Flow</h3>
+            <p>
+              A calming ritual for slowing down, releasing the day,
+              and reconnecting with yourself.
+            </p>
+          </div>
+
+          <div>
+            <h3>Goddess Glow</h3>
+            <p>
+              Our luxurious signature blend centered around confidence,
+              softness, and self-love.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- YONI ADD-ONS -->
+      <div class="takehome mt-3">
+
+        <p class="eyebrow">
+          Ritual Add-Ons
+        </p>
+
+        <div class="blend-grid">
+
+          <div>
+            <h3>Additional Herbal Blend · +$10</h3>
+          </div>
+
+          <div>
+            <h3>Aromatherapy Enhancement · +$10</h3>
+          </div>
+
+          <div>
+            <h3>Self-Care Tea Ritual · +$10</h3>
+          </div>
+
+          <div>
+            <h3>Affirmation / Candle Ritual · +$15</h3>
+          </div>
+
+          <div>
+            <h3>Take-Home Steam Blend After Service · +$12</h3>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- TAKE HOME COLLECTION -->
+      <div class="takehome mt-3">
+
+        <p class="eyebrow">
+          Take-Home Collection
+        </p>
+
+        <div class="blend-grid">
+
+          <div>
+            <h3>One Ritual · $18</h3>
+            <p>
+              One single-use packaged herbal blend with instructions
+              and affirmation.
+            </p>
+          </div>
+
+          <div>
+            <h3>BLOW Duo · $32</h3>
+            <p>
+              Choose any two signature blends.
+            </p>
+          </div>
+
+          <div>
+            <h3>BLOW Trio · $45</h3>
+            <p>
+              Choose any three signature blends.
+            </p>
+          </div>
+
+          <div>
+            <h3>The Goddess Collection · $70</h3>
+            <p>
+              All five signature blends in a Beauty By BLOW gift box.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <p class="safety-note mt-2">
+        <strong>Important:</strong>
+        Yoni steaming is offered as an optional external self-care ritual,
+        not medical treatment. Review the consent and safety information
+        before booking.
+      </p>
+
+    </div>
+  </section>
+
+
+  <!-- BOOKING & DEPOSITS -->
+  <section class="section bg-blush" id="booking-fees">
+    <div class="wrap">
+
+      <p class="eyebrow reveal">
+        Booking &amp; Deposits
+      </p>
+
+      <h2 class="reveal">
+        Reserve your <span class="italic">appointment.</span>
+      </h2>
+
+      <div class="ritual-grid mt-3">
+
+        <article class="ritual-card">
+          <h3>Services Under $150</h3>
+          <p class="ritual-price">$25 Deposit</p>
+        </article>
+
+        <article class="ritual-card">
+          <h3>Services $150+</h3>
+          <p class="ritual-price">$50 Deposit</p>
+        </article>
+
+        <article class="ritual-card">
+          <h3>Microblading</h3>
+          <p class="ritual-price">$50 Deposit</p>
+        </article>
+
+        <article class="ritual-card">
+          <h3>Packages</h3>
+          <p class="ritual-price">Paid in Full</p>
+        </article>
+
+      </div>
+
+      <div class="center mt-3">
+        <a class="btn btn-primary" href="book.html">
+          Book Your Appointment
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- HELP CTA -->
+  <section class="section">
+    <div class="wrap center" style="max-width:640px;">
+
+      <h2 style="font-size:var(--step-2);">
+        Not sure what's right for you?
+      </h2>
+
+      <p class="lede center mt-1" style="max-width:56ch;">
+        Review the service options above, then book with Asia Shari
+        when you're ready to begin your Beauty By BLOW experience.
+      </p>
+
+      <a class="btn btn-primary mt-2" href="book.html">
+        Book With Asia Shari
+      </a>
+
+    </div>
+  </section>
+
 </main>
+
 
 <footer class="site-footer">
   <div class="wrap">
+
     <div class="footer-grid">
+
       <div>
-        <p class="footer-brand">Beauty By BLOW</p>
-        <p>Private beauty, body, and wellness studio in Buford, GA — personalized, unhurried, and entirely about you.</p>
+        <p class="footer-brand">
+          Beauty By BLOW
+        </p>
+
+        <p>
+          Private beauty, body, and wellness studio in Buford, GA.
+          Personalized, unhurried, and entirely about you.
+        </p>
       </div>
+
+
       <div class="footer-col">
         <h4>Explore</h4>
+
         <ul>
           <li><a href="services.html">Services</a></li>
-          <li><a href="meet-asia.html">Meet Asia</a></li>
+          <li><a href="meet-asia.html">Meet Asia Shari</a></li>
           <li><a href="book.html">Booking</a></li>
         </ul>
       </div>
+
+
       <div class="footer-col">
         <h4>Studio</h4>
+
         <ul>
           <li><a href="before-you-book.html">Policies</a></li>
           <li><a href="before-you-book.html#privacy">Privacy</a></li>
           <li><a href="faq.html">FAQ</a></li>
         </ul>
       </div>
+
     </div>
+
+
     <div class="footer-bottom">
-      <span>Beauty By BLOW &copy; <span data-year></span></span>
+      <span>
+        Beauty By BLOW &copy;
+        <span data-year></span>
+      </span>
     </div>
+
   </div>
 </footer>
+
 
 <script src="data.js"></script>
 <script src="render.js"></script>
 <script src="main.js"></script>
+
 </body>
 </html>

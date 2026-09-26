@@ -802,3 +802,224 @@ input, select, textarea{ font-family: inherit; font-size: 1rem; }
 .safety-note { max-width:78ch; font-size:.9rem; }
 @media (max-width:900px){ .yoni-hero-grid,.ritual-grid{grid-template-columns:1fr;} .ritual-card.featured{transform:none;} .blend-grid{grid-template-columns:repeat(2,1fr);} }
 @media (max-width:600px){ .series-grid,.blend-grid{grid-template-columns:1fr;} .brand{font-size:.95rem}.brand strong{font-size:1.25rem} }
+/* =========================================================
+   Beauty By BLOW — Final QA
+   ========================================================= */
+
+/* Correct Yoni section background token */
+.yoni-feature {
+  background:
+    linear-gradient(
+      180deg,
+      var(--cream-2),
+      #fff 45%,
+      var(--blush)
+    );
+}
+
+
+/* Footer description */
+.footer-grid > div:first-child > p:not(.footer-brand) {
+  color: rgba(253, 239, 226, 0.75);
+  margin-top: 0.9rem;
+  font-size: 0.92rem;
+  max-width: 32ch;
+}
+
+
+/* Booking service selection */
+.service-pick[aria-current="true"],
+.service-pick[aria-pressed="true"] {
+  border-color: var(--coral);
+  background: var(--blush);
+}
+
+
+/* Keep booking service information readable */
+.service-pick > span:first-child {
+  min-width: 0;
+}
+
+.service-pick .name,
+.service-pick .meta {
+  display: block;
+}
+
+.service-pick .price {
+  flex-shrink: 0;
+}
+
+
+/* Service cards */
+.service-meta {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.service-actions .btn {
+  text-align: center;
+}
+
+
+/* Policy navigation */
+.policy-nav a {
+  line-height: 1.35;
+}
+
+
+/* FAQ question spacing */
+.faq-question {
+  gap: 1rem;
+}
+
+.faq-question .faq-icon {
+  margin-left: auto;
+}
+
+
+/* =========================================================
+   MOBILE POLISH
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+  .wrap {
+    padding-inline: 1.15rem;
+  }
+
+  .section {
+    padding-block: 3.5rem;
+  }
+
+  .page-header {
+    padding-top: 2.75rem;
+  }
+
+
+  /* Header */
+
+  .nav {
+    gap: 0.75rem;
+  }
+
+  .nav-cta {
+    gap: 0.5rem;
+  }
+
+  .brand {
+    font-size: 0.95rem;
+  }
+
+  .brand strong {
+    font-size: 1.25rem;
+  }
+
+
+  /* Hero */
+
+  .hero {
+    padding-top: 2rem;
+  }
+
+  .hero h1 {
+    max-width: 100%;
+  }
+
+  .hero-media {
+    aspect-ratio: 1 / 1;
+  }
+
+  .hero-ctas {
+    align-items: stretch;
+  }
+
+  .hero-ctas .btn {
+    justify-content: center;
+  }
+
+
+  /* Services */
+
+  .service-body {
+    padding: 1.25rem;
+  }
+
+  .service-meta {
+    align-items: flex-start;
+  }
+
+  .service-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .service-actions .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+
+  /* Booking service list */
+
+  .service-pick {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .service-pick .price {
+    white-space: normal;
+  }
+
+
+  /* Policies */
+
+  .policy-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .policy-nav a {
+    background: rgba(255, 255, 255, 0.55);
+  }
+
+  .callout {
+    padding: 1.25rem;
+  }
+
+
+  /* FAQ */
+
+  .faq-question {
+    padding: 1.15rem;
+  }
+
+  .faq-answer p {
+    padding: 0 1.15rem 1.25rem;
+  }
+
+
+  /* Final CTA */
+
+  .final-cta {
+    border-radius: 22px;
+  }
+
+}
+
+
+@media (max-width: 420px) {
+
+  .policy-nav {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-ctas {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .hero-ctas .btn {
+    width: 100%;
+  }
+
+}
